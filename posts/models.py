@@ -2,7 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 
 
-class Post(models.model):
+class Post(models.Model):
     image_filter_choices = [
         ('_1977', '1977'), ('brannan', 'Brannan'),
         ('earlybird', 'Earlybird'), ('hudson', 'Hudson'),
